@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 
+}
+.header{
+    background-color: white;
+    border-bottom: 1px solid white;
+    padding: 20px 40px;
+}
+.header h2{
+ margin: 0;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: ;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+.form-control input{
+    border: 2px solid#f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.form-control.success input{
+    border-color: yellowgreen;
+}
+.form-control.Error input{
+    border-color: red;
+}
+.form button{
+    background-color: mediumblue;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
+    border-radius: 5px;
+}
+.form-control i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-control.success 9.fa-check-circle{
+    visibility: :visible;
+    color:green;
+}
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
